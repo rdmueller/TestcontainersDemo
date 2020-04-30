@@ -1,0 +1,9 @@
+run as `./gradlew test`.
+
+Requirements: Java and Docker installed.
+
+This demo will run a Spock test which instantiates a basic docker container and runs a `ls -ltra` on the command line within the container.
+
+The main magic happens in `src/test/groovy/runInContainer/AppTest`.
+
+Thanx to https://twitter.com/Kiview[@Kiview] for showing me the magic behind https://www.testcontainers.org/[Testcontainers].
